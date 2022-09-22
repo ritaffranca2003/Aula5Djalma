@@ -8,6 +8,23 @@
     <script src="./Script/Script.js"></script>
 </head>
 <body>
+
+    <input type ="text" id = "valor1" name = "valor1">
+    <input type ="text" id = "valor2" name = "valor2">
+    <button id= "somar" onclick="somar()">Somar</button>
     
 </body>
 </html>
+
+
+
+na pasta Script.js vc ira colocar:
+
+function somar(){
+
+var valor1 = document.getElementById("valor1").value
+var valor2 = document.getElementById("valor2").value
+var soma = valor1 + valor2;
+alert(somar);
+
+}
